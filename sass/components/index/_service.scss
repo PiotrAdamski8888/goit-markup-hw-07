@@ -8,12 +8,7 @@
     margin: auto;
     padding: 0 15px;
   }
-  .container {
-    margin: 0 auto;
-    width: 100%;
-    max-width: 1200px;
-    padding: 0 15px;
-  }
+  
   .lorem-height {
     height: 600px;
   }
@@ -47,7 +42,6 @@
   .button-agencja:hover {
     background-color: var(--main-blue);
     color: var(--background-grey);
-    cursor: pointer;
-    
+    cursor: pointer;  
     transition: var(--transition-timing);
   }
