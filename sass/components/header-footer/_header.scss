@@ -1,17 +1,17 @@
-.header-font {
+.header {
+  border-bottom: 1px solid;
+  color: var(--border-white);
+}
+.header__font {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   height: 80px;
 }
-.border-bot {
-  border-bottom: 1px solid;
-  color: var(--border-white);
-}
-.header-just {
+.header__justify {
   padding: 27px 0;
 }
-.header-box {
+.header__box {
   margin: 0 auto;
   box-sizing: border-box;
   justify-content: space-between;
@@ -22,66 +22,64 @@
   align-items: center;
   padding: 0 15px;
 }
-.first-list {
+.header__nav {
   text-align: center;
   display: flex;
   padding-left: 0px;
   flex-grow: 1;
   gap: 46px;
 }
-.link {
+.header__nav--link {
   color: var(--main-black);
   text-decoration: none;
 }
-.portfolio-active {
+.header__agency--active {
   position: relative;
+  &::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    border-radius: 4px;
+    background-color: var(--main-blue);
+    bottom: -32px;
+    left: 0;
+  }
 }
-.second-list {
+.header__portfolio--active {
+  position: relative;
+  &::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    border-radius: 4px;
+    background-color: var(--main-blue);
+    bottom: -32px;
+    left: 0;
+  }
+}
+.header__contacts {
   display: flex;
   justify-content: space-between;
   padding-left: 0px;
   gap: 50px;
 }
-.link-header {
+.header__contacts--link {
   color: var(--main-silver);
   text-decoration: none;
 }
-.link:hover {
+.header__nav--link:hover {
   color: var(--main-blue);
   cursor: pointer;
   transition: var(--transition-timing);
 }
-.link-header:hover {
+.header__contacts--link:hover {
   color: var(--main-blue);
   cursor: pointer;
   transition: var(--transition-timing);
 }
-.link-header:hover svg {
+.header__contacts--link:hover svg {
   stroke: var(--main-blue);
   fill: var(--main-blue);
-}
-.agencja-active {
-  position: relative;
-}
-.agencja-active::after {
-  content: "";
-  position: absolute;
-
-  width: 100%;
-  height: 4px;
-  border-radius: 4px;
-  background-color: var(--main-blue);
-  bottom: -32px;
-  left: 0;
-}
-.portfolio-active::after {
-  content: "";
-  position: absolute;
-
-  width: 100%;
-  height: 4px;
-  border-radius: 4px;
-  background-color: var(--main-blue);
-  bottom: -32px;
-  left: 0;
 }
