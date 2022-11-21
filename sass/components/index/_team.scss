@@ -1,35 +1,28 @@
-.background-team {
-    background-color: var(--second-white);
-    padding-top: 94px;
-    padding-bottom: 94px;
-  }
-  .figure {
-    margin: 0;
-    background-color: var(--main-white);
-    margin-right: 30px;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-      0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
-  }
-  .figbot {
-    background-color: var(--main-white);
-    text-align: center;
-    padding-top: 30px;
-    border-bottom-left-radius: 4px;
-    border-bottom-right-radius: 4px;
-  }
-  .figcaption-strong-studio {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.18;
-    color: var(--main-black);
-  }
-  .figcaption-p-studio {
-    color: var(--main-silver);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.18;
-    padding-bottom: 30px;
-    margin-bottom: 0px;
-    margin-top: 10px;
-  }
+.team {
+  background-color: var(--second-white);
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.team__bottom {
+  background-color: var(--main-white);
+  text-align: center;
+  padding-top: 30px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.team__figcaption--strong {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  color: var(--main-black);
+}
+.team__figcaption--p {
+  color: var(--main-silver);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  padding-bottom: 30px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
