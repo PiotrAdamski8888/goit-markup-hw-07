@@ -23,7 +23,7 @@
   gap: 10px;
   padding-bottom: 30px;
 }
-.social-links-style {
+.social-links--style {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,7 +32,7 @@
   border-radius: 50%;
   fill: var(--social-grey);
 }
-.social-links-style:hover {
+.social-links--style:hover {
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -54,7 +54,7 @@
 .logo__color {
   color: var(--main-blue);
 }
-.footer__subscribe--placeholder:focus {
+.subscribe--block-placeholder:focus {
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
 .icon {
