@@ -22,14 +22,14 @@
   align-items: center;
   padding: 0 15px;
 }
-.header__nav {
+.navigation {
   text-align: center;
   display: flex;
   padding-left: 0px;
   flex-grow: 1;
   gap: 46px;
 }
-.header__nav--link {
+.navigation__link {
   color: var(--main-black);
   text-decoration: none;
 }
@@ -69,7 +69,7 @@
   color: var(--main-silver);
   text-decoration: none;
 }
-.header__nav--link:hover {
+.navigation__link:hover {
   color: var(--main-blue);
   cursor: pointer;
   transition: var(--transition-timing);
